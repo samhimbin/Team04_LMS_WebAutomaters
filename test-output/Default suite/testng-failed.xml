@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="20"/>
+          <include name="runScenario" invocation-numbers="52 37 43"/>
         </methods>
       </class> <!-- com.TesRunner.TestNgTestRunner -->
     </classes>

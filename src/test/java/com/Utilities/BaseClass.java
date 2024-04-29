@@ -2,6 +2,8 @@ package com.Utilities;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
+import com.pageObjects.BatchPageObject;
 import com.pageObjects.DashboardPageObject;
 import com.pageObjects.LoginPageObject;
 import com.pageObjects.ProgramPageObject;
@@ -13,12 +15,14 @@ public class BaseClass {
 	public ProgramPageObject programpage;
 	public LoginPageObject loginpage;
 	public DashboardPageObject dashboard;
-	
+	public BatchPageObject batchpage;
 	
 	//Manage Program 
-	public static String ExpectedUrl ="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/program";
-	
-		// Extract the data from Excel and return the value as ArrayList
+	public static String ExpectedprogramUrl ="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/program";
+	//Manage Batch
+	public static String expectedBatchUrl ="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/Managebatch";
+		
+	// Extract the data from Excel and return the value as ArrayList
 		public static ArrayList<String> excelValue(String sheetName, String testCase) throws IOException {
 			LoggerLoad.info("ArrayList excelValuemethod");
 			Excelreader ed = new Excelreader();

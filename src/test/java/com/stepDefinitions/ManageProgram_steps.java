@@ -33,7 +33,7 @@ public class ManageProgram_steps extends BaseClass {
 	public void admin_should_see_url_with(String string) {
 		String currentUrl = DriverClass.getDriver().getCurrentUrl();
 		LoggerLoad.info("currentUrl :" + currentUrl);
-		String expectedURL = BaseClass.ExpectedUrl;
+		String expectedURL = BaseClass.ExpectedprogramUrl;
 		try {
 			Assert.assertEquals(currentUrl, expectedURL);
 		} catch (Exception e) {
