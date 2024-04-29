@@ -21,7 +21,7 @@ public class DriverClass {
 
 	public static WebDriver getdesireDriver() {
 
-		rb = ResourceBundle.getBundle("Config");
+		rb = ResourceBundle.getBundle("config");
 		br = rb.getString("browser");
 
 		if (br.equals("chrome")) {
