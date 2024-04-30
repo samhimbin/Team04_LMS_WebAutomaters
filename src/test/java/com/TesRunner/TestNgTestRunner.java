@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		"json:target/cucumber-reports/cucumber.json",
 		}, // reporting purpose
 		monochrome = false, // console output color
-				//tags="",
+				tags="@portal or @login or @dash or @program",
 				features = {"src/test/resources/Features/"},
 						glue= {"com.stepDefinitions","com.Hooks"})
 public class TestNgTestRunner extends AbstractTestNGCucumberTests {
