@@ -66,19 +66,19 @@ public class ManageProgram_steps extends BaseClass {
 				&& programpage.getfooterMessage().endsWith(" programs."));
 
 	}
-    
-	//#5
+
+	// #5
 	@Then("Admin should see a Delete button on the top left hand side as Disabled")
 	public void admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled() {
-		
+
 	}
-    
-	//#12
+
+	// #12
 	@Then("Admin should see Search bar with text as {string}")
 	public void admin_should_see_search_bar_with_text_as(String string) {
-		
+
 		Assert.assertTrue(programpage.searchBoxValidation());
-        LoggerLoad.info("Admin see Search bar with text as "+ programpage.searchBoxValidation());
+		LoggerLoad.info("Admin see Search bar with text as " + programpage.searchBoxValidation());
 	}
 
 }

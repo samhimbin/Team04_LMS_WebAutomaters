@@ -15,18 +15,6 @@ public class ProgramPageObject {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id = "username")
-	@CacheLookup
-	WebElement username;
-
-	@FindBy(id = "password")
-	@CacheLookup
-	WebElement password;
-
-	@FindBy(id = "login")
-	@CacheLookup
-	WebElement loginBtn;
-
 	@FindBy(xpath = "//span[normalize-space()='LMS - Learning Management System']")
 	@CacheLookup
 	WebElement dashBoardheader;
@@ -92,18 +80,6 @@ public class ProgramPageObject {
 
 	public String getfooterMessage() {
 		return footerMessage.getText();
-	}
-
-	public void enterUserName(String Uname) {
-		username.sendKeys("sdetorganizers@gmail.com");
-	}
-
-	public void enterPasswordField(String Pwd) {
-		password.sendKeys("UIHackathon@02");
-	}
-
-	public void clickOnLoginButton() {
-		loginBtn.click();
 	}
 
 	public void headerIsDisplayed() {

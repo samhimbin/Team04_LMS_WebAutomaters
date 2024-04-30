@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <testng-results ignored="0" total="53" passed="50" failed="3" skipped="0">
+=======
+<testng-results ignored="0" total="45" passed="42" failed="3" skipped="0">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T19:11:32 EDT" name="Default suite" finished-at="2024-04-29T19:12:27 EDT" duration-ms="54578">
+  <suite started-at="2024-04-30T00:14:56 EDT" name="Default suite" finished-at="2024-04-30T00:16:07 EDT" duration-ms="71500">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-29T19:11:32 EDT" name="Default test" finished-at="2024-04-29T19:12:27 EDT" duration-ms="54578">
+    <test started-at="2024-04-30T00:14:56 EDT" name="Default test" finished-at="2024-04-30T00:16:07 EDT" duration-ms="71500">
       <class name="com.TesRunner.TestNgTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:11:32 EDT" name="setUpClass" finished-at="2024-04-29T19:11:33 EDT" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:14:56 EDT" name="setUpClass" finished-at="2024-04-30T00:14:57 EDT" duration-ms="1217" status="PASS">
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@59014efe]]>
 =======
 <testng-results ignored="0" total="37" passed="2" failed="35" skipped="0">
@@ -34,6 +39,9 @@
               <value>
                 <![CDATA[org.testng.TestRunner@535a518c]]>
 >>>>>>> sreelatha
+=======
+                <![CDATA[org.testng.TestRunner@a6fc1bc]]>
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
               </value>
             </param>
           </params>
@@ -41,10 +49,14 @@
           </reporter-output>
         </test-method> <!-- setUpClass -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:11:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:11:42 EDT" duration-ms="8915" status="PASS">
 =======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:02:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:14 EDT" duration-ms="15322" status="PASS">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:14:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:07 EDT" duration-ms="10436" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -61,10 +73,14 @@
           </reporter-output>
         </test-method> <!-- runScenario -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:11:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:11:53 EDT" duration-ms="10911" status="PASS">
 =======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:26 EDT" duration-ms="12633" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:18 EDT" duration-ms="10710" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -81,6 +97,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:11:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:11:58 EDT" duration-ms="5313" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -129,6 +146,9 @@ at ✽.Admin should recieve 404 page not found error(file:///Users/keerthimula/g
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:26 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="146" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:24 EDT" duration-ms="5450" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -145,6 +165,7 @@ at ✽.Admin should recieve 404 page not found error(file:///Users/keerthimula/g
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:11:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:03 EDT" duration-ms="4689" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -191,6 +212,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="88" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:29 EDT" duration-ms="5795" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -207,6 +231,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:03 EDT" duration-ms="361" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -253,6 +278,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="51" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:30 EDT" duration-ms="474" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -269,6 +297,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:03 EDT" duration-ms="265" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -315,6 +344,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="47" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:30 EDT" duration-ms="468" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -331,6 +363,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:03 EDT" duration-ms="282" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -377,6 +410,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="71" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:31 EDT" duration-ms="408" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -393,6 +429,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:04 EDT" duration-ms="271" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -439,6 +476,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="38" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:31 EDT" duration-ms="374" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -455,6 +495,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:04 EDT" duration-ms="231" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -501,6 +542,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="60" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:32 EDT" duration-ms="425" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -517,6 +561,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:04 EDT" duration-ms="227" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -563,6 +608,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="129" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:32 EDT" duration-ms="278" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -579,6 +627,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:04 EDT" duration-ms="243" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -625,6 +674,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="43" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:32 EDT" duration-ms="312" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -641,6 +693,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:05 EDT" duration-ms="254" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -687,6 +740,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="69" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:32 EDT" duration-ms="292" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -703,6 +759,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:05 EDT" duration-ms="242" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -749,6 +806,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="45" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:33 EDT" duration-ms="309" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -765,6 +825,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:05 EDT" duration-ms="222" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -811,6 +872,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="47" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:33 EDT" duration-ms="286" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -827,6 +891,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:05 EDT" duration-ms="278" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -873,6 +938,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="31" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:33 EDT" duration-ms="382" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -889,6 +957,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:06 EDT" duration-ms="235" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -935,6 +1004,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="37" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:34 EDT" duration-ms="315" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -951,6 +1023,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:06 EDT" duration-ms="307" status="PASS">
 =======
           <exception class="org.openqa.selenium.NoSuchWindowException">
@@ -997,6 +1070,9 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
         </test-method> <!-- runScenario -->
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-28T23:03:27 EDT" duration-ms="51" status="FAIL">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:34 EDT" duration-ms="498" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <params>
             <param index="0">
               <value>
@@ -1013,7 +1089,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:06 EDT" duration-ms="200" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:35 EDT" duration-ms="331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1029,7 +1105,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:06 EDT" duration-ms="223" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:35 EDT" duration-ms="438" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1045,7 +1121,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:13 EDT" duration-ms="6574" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:35 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:42 EDT" duration-ms="7059" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1061,7 +1137,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:14 EDT" duration-ms="634" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:43 EDT" duration-ms="1232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1077,7 +1153,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:14 EDT" duration-ms="761" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:45 EDT" duration-ms="1280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1143,7 +1219,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:15 EDT" duration-ms="453" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:45 EDT" duration-ms="632" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1209,7 +1285,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:15 EDT" duration-ms="574" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:45 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:46 EDT" duration-ms="813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1275,7 +1351,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:16 EDT" duration-ms="470" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:47 EDT" duration-ms="644" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1341,7 +1417,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:16 EDT" duration-ms="219" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:47 EDT" duration-ms="251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1357,7 +1433,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:16 EDT" duration-ms="6" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:47 EDT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1373,7 +1449,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:21 EDT" duration-ms="5076" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:52 EDT" duration-ms="5064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1389,7 +1465,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:21 EDT" duration-ms="44" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:52 EDT" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1405,7 +1481,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:21 EDT" duration-ms="67" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:52 EDT" duration-ms="94" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1421,7 +1497,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:23 EDT" duration-ms="1520" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:54 EDT" duration-ms="1560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1437,7 +1513,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="915" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:55 EDT" duration-ms="937" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1453,7 +1529,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="74" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:55 EDT" duration-ms="83" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1469,7 +1545,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="43" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:55 EDT" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1485,7 +1561,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="62" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:55 EDT" duration-ms="94" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1501,7 +1577,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="88" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:55 EDT" duration-ms="136" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1517,7 +1593,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="111" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:55 EDT" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1533,7 +1609,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:24 EDT" duration-ms="372" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:56 EDT" duration-ms="396" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1616,7 +1692,7 @@ at ✽.Admin should see URL with "Manage Program"(file:///C:/Users/kiran/eclipse
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:25 EDT" duration-ms="97" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:56 EDT" duration-ms="173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1686,7 +1762,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:25 EDT" duration-ms="57" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:56 EDT" duration-ms="108" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1756,7 +1832,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:25 EDT" duration-ms="104" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:56 EDT" duration-ms="177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1826,7 +1902,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:25 EDT" duration-ms="61" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:56 EDT" duration-ms="107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1896,7 +1972,7 @@ at ✽.Admin gives the correct LMS portal URL(file:///Users/keerthimula/git/Team
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:25 EDT" duration-ms="106" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:15:56 EDT" duration-ms="189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1976,6 +2052,7 @@ at ✽.Admin should see manage program as header(file:///Users/keerthimula/git/T
           </reporter-output>
         </test-method> <!-- runScenario -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-29T19:12:25 EDT" duration-ms="298" status="FAIL">
           <params>
             <param index="0">
@@ -1988,17 +2065,29 @@ at ✽.Admin should see manage program as header(file:///Users/keerthimula/git/T
               <value>
                 <![CDATA["Verify broken link"]]>
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:15:56 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:16:02 EDT" duration-ms="5297" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Common Delete button enabled after clicking on any checkbox"]]>
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
               </value>
             </param>
             <param index="1">
               <value>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <![CDATA["Batch Page Validation"]]>
+=======
+                <![CDATA["Program Validation"]]>
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
+<<<<<<< HEAD
               <![CDATA[expected [https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/Managebatch] but found [https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/batch]]]>
             </message>
             <full-stacktrace>
@@ -2701,23 +2790,28 @@ at ✽.Admin should see user in the  3rd place(file:///Users/keerthimula/git/Tea
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
+=======
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Program"}
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
   (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7c76f1244acad979dc8f69f7d9f9b0e, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kiran\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c7c76f1244acad979dc8f69f7d9f9b0e]]>
+Command: [94c4ef06e6dafec1b1eb1233c7ea42e9, findElement {using=link text, value=Program}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kiran\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c4ef06e6dafec1b1eb1233c7ea42e9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Program"}
   (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7c76f1244acad979dc8f69f7d9f9b0e, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kiran\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c7c76f1244acad979dc8f69f7d9f9b0e
+Command: [94c4ef06e6dafec1b1eb1233c7ea42e9, findElement {using=link text, value=Program}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kiran\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c4ef06e6dafec1b1eb1233c7ea42e9
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -2760,18 +2854,32 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
 <<<<<<< HEAD
+<<<<<<< HEAD
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
 at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1168)
 at com.pageObjects.BatchPageObject.alertDisplyFunction(BatchPageObject.java:103)
 at com.stepDefinitions.ManageBatch_steps.a_new_pop_up_with_batch_details_appears(ManageBatch_steps.java:97)
 at ✽.A new pop up with Batch details appears(file:///C:/Users/kiran/eclipse-workspace/Team04_LMS_WebAutomaters/src/test/resources/Features/005_ManageBatch.feature:38)
+=======
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
+at com.pageObjects.ProgramPageObject.selectOneProgramChk(ProgramPageObject.java:181)
+at com.stepDefinitions.ManageProgram_steps.admin_is_in_the_manage_program_page_after_clicking_program_on_the_navigation_bar(ManageProgram_steps.java:89)
+at ✽.Admin is in the manage program page after clicking Program on the navigation bar(file:///C:/Users/kiran/eclipse-workspace/Team04_LMS_WebAutomaters/src/test/resources/Features/004_ManageProgram.feature:33)
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-29T19:12:27 EDT" name="tearDownClass" finished-at="2024-04-29T19:12:27 EDT" duration-ms="110" status="PASS">
 =======
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
@@ -2792,6 +2900,70 @@ at ✽.Admin should see logout in the 4th place(file:///Users/keerthimula/git/Te
         </test-method> <!-- runScenario -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TesRunner.TestNgTestRunner@30c15d8b]" started-at="2024-04-28T23:03:28 EDT" name="tearDownClass" finished-at="2024-04-28T23:03:28 EDT" duration-ms="192" status="PASS">
 >>>>>>> sreelatha
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:16:02 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T00:16:07 EDT" duration-ms="5400" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate multiple program deletion by selecting Single checkbox"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Program Validation"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Yes']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94c4ef06e6dafec1b1eb1233c7ea42e9, findElement {using=xpath, value=//*[text()='Yes']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kiran\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c4ef06e6dafec1b1eb1233c7ea42e9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Yes']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94c4ef06e6dafec1b1eb1233c7ea42e9, findElement {using=xpath, value=//*[text()='Yes']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kiran\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54230/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c4ef06e6dafec1b1eb1233c7ea42e9
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy39.click(Unknown Source)
+at com.pageObjects.ProgramPageObject.commonDeleteAlertConfirmYes(ProgramPageObject.java:211)
+at com.stepDefinitions.ManageProgram_steps.admin_clicks_yes_button_on_the_alert(ManageProgram_steps.java:117)
+at ✽.Admin clicks <YES> button on the alert(file:///C:/Users/kiran/eclipse-workspace/Team04_LMS_WebAutomaters/src/test/resources/Features/004_ManageProgram.feature:39)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TesRunner.TestNgTestRunner@15ca7889]" started-at="2024-04-30T00:16:07 EDT" name="tearDownClass" finished-at="2024-04-30T00:16:07 EDT" duration-ms="136" status="PASS">
+>>>>>>> 6c723a58a1d9cee4232a5796d0a285bab844dce7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
