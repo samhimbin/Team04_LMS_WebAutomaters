@@ -207,11 +207,6 @@ Feature: Program Validation
  When Admin clicks <Save>button on edit popup
  Then Admin gets a message "Successful Program Updated" alert and able to see the updated details in the table for the particular program
 
-<<<<<<< HEAD
-	#@SearchBar
-	Scenario: Verify Search bar on the Program page
-	 Then Admin should see Search bar with text as "Search..."
+
 	 
-	
-=======
->>>>>>> f220391ae653767cbc49add958b7bc19d324613c
+

@@ -23,9 +23,6 @@ public class ProgramPageObject {
 		this.driver = driver;
 	}
 
-<<<<<<< HEAD
-	@FindBy(xpath = "//span[normalize-space()='LMS - Learning Management System']")
-=======
 	@FindBy(id = "username")
 	@CacheLookup
 	WebElement username;
@@ -39,7 +36,6 @@ public class ProgramPageObject {
 	WebElement loginBtn;	
 	
 	@FindBy(xpath="//span[normalize-space()='LMS - Learning Management System']")
->>>>>>> f220391ae653767cbc49add958b7bc19d324613c
 	@CacheLookup
 	WebElement dashBoardheader;
 	
@@ -130,8 +126,6 @@ public class ProgramPageObject {
 		return footerMessage.getText();
 	}
 
-<<<<<<< HEAD
-=======
 	public void enterUserName(String Uname) {
 		username.sendKeys("sdetorganizers@gmail.com");
 	}
@@ -141,7 +135,6 @@ public class ProgramPageObject {
 	public void clickOnLoginButton() {
 		loginBtn.click();
 	}
->>>>>>> f220391ae653767cbc49add958b7bc19d324613c
 	public void headerIsDisplayed() {
 		dashBoardheader.isDisplayed();
 	}
