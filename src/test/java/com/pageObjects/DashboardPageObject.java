@@ -18,7 +18,7 @@ import java.util.List;
 public class DashboardPageObject {
 
 	public DashboardPageObject(WebDriver driver) {
-		LoggerLoad.info("enter homepage feature");
+		LoggerLoad.info("entered Dashboard feature");
 		PageFactory.initElements(driver, this);
 	}
 
