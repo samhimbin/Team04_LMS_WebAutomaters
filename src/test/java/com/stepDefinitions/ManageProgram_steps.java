@@ -65,24 +65,26 @@ public class ManageProgram_steps extends BaseClass {
 		LoggerLoad.info("Footer Message ------>"+programPage.getfooterMessage());
 		Assert.assertTrue(programPage.getfooterMessage().startsWith("In total there are ") && programPage.getfooterMessage().endsWith(" programs."));
 	}
-
 	
     // Delete
 	@Then("Admin should see a Delete button on the top left hand side as Disabled")
 	public void admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled() {
 		Assert.assertFalse(programPage.deleteButtonValidation());
+		LoggerLoad.info("DeleteButton------>"+programPage.deleteButtonValidation());
 	}
 	
 	// Search
 	@Then("Admin should see Search bar with text as {string}")
 	public void admin_should_see_search_bar_with_text_as(String string) {
 		Assert.assertTrue(programPage.searchBoxValidation());  
+		LoggerLoad.info("Search bar------>"+programPage.searchBoxValidation());
 	}
 	
     // Add new Program
 	@Then("Admin should see a {string} button on the program page above the data table")
 	public void admin_should_see_a_button_on_the_program_page_above_the_data_table(String string) {
 		Assert.assertEquals(programPage.addProgramButtonValidation(), "A New Program");
+		LoggerLoad.info("Admin should see a" +programPage.addProgramButtonValidation()+" button on the program page above the data table");
 	}
 	
 	@Then("Admin should see data table on the Manage Program Page with column headers")
@@ -92,6 +94,7 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertTrue("Program Description".equals(programPage.programDescriptionHeaderValidation()));
 		Assert.assertTrue("Program Status".equals(programPage.programStatusHeaderValidation()));
 		Assert.assertTrue("Edit / Delete".equals(programPage.editDeleteHeaderValidation()));
+		LoggerLoad.info("Admin should see data table on the Manage Program Page with column headers");
 	}
 
 	@Then("Admin should see the sort arrow icon beside to each column header except Edit and Delete")
@@ -101,14 +104,16 @@ public class ManageProgram_steps extends BaseClass {
 	  Assert.assertTrue("Program Description".contains(programPage.programDescriptionArrowIconValidation()));
 	  Assert.assertTrue("Program Status".contains(programPage.programStatusArrowIconValidation()));
 	  Assert.assertTrue("Edit / Delete".equals(programPage.editDeleteHeaderValidation()));
+	  LoggerLoad.info("Admin should see the sort arrow icon beside to each column header except Edit and Delete");
 	}
 	
 	// Pagenation
 	@Then("Admin should see the text as Showing x to y of z entries along with Pagination icon below the table")
 	public void admin_should_see_the_text_as_showing_x_to_y_of_z_entries_along_with_pagination_icon_below_the_table() {
 		String rowsInfo = programPage.numberOfRecordstextValidate();
-		String[] items = rowsInfo.split(" "); // Showing 1 to 5 of 7 entries
+		String[] items = rowsInfo.split(" "); // e.g. Showing 1 to 5 of 7 entries
 	    Assert.assertTrue(items.length == 7 && items[0].equals("Showing")&& items[2].equals("to")&& items[4].equals("of")&& items[6].equals("entries"));
+	    LoggerLoad.info("Admin should see the text as "+ programPage.numberOfRecordstextValidate()+"along with Pagination icon below the table");
 	}
 
 	@Then("Admin should see check box on the left side in all rows of the data table")
@@ -117,6 +122,7 @@ public class ManageProgram_steps extends BaseClass {
 		for (int i = 1; i<=pageUtils.getRecordsPerPage(); i++) {
 			WebElement rowCheckBox = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[1]/p-tablecheckbox/div/div[2]"));
 			Assert.assertTrue(rowCheckBox.isDisplayed());	
+			LoggerLoad.info("Admin should see check box on the left side in all rows of the data table");
 		}
 	    
 	}
@@ -133,13 +139,15 @@ public class ManageProgram_steps extends BaseClass {
      	for (int i = 1; i<=pageUtils.getRecordsPerPage(); i++) {
 			WebElement rowdeleteicon = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[2]/span[1]"));
 			Assert.assertTrue(rowdeleteicon.isDisplayed());
+			LoggerLoad.info("Admin should see the Edit and Delete buttons on each row of the data table");
      	}
 	}
 
 	@Then("Admin should see the number of records displayed on the page are {int}")
 	public void admin_should_see_the_number_of_records_displayed_on_the_page_are(Integer int1) {
-		String[] items = programPage.numberOfRecordstextValidate().split(" "); // Showing 1 to 5 of 7 entries
+		String[] items = programPage.numberOfRecordstextValidate().split(" "); // e.g. Showing 1 to 5 of 7 entries
 		Assert.assertTrue(items.length == 7 && items[1].equals("1") && items[3].equals("5"));
+		LoggerLoad.info("Admin should see the number of records displayed on the page are 5");
 	}
 	
 	// Add A Program
@@ -147,11 +155,13 @@ public class ManageProgram_steps extends BaseClass {
 	public void admin_is_on_manage_program_page() {
 		programPage.manageProgramIsDisplayed();
 		Assert.assertEquals(programPage.manageProgramIsDisplayed(),"Manage Program");
+		LoggerLoad.info("Admin is on Manage Program Page");
 	}
 	
 	@When("Admin clicks <A New Program> button")
-	public void admin_clicks_a_new_program_button() {
+	public void admin_clicks_a_new_program_button() throws InterruptedException {
 		programPage.clickOnaddProgram();
+		LoggerLoad.info("Admin clicks <A New Program> button");
 	}
 
 	@Then("Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close\\(X) Icon on the top right corner of the window")
@@ -173,6 +183,7 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertTrue(programPage.saveIsDisplayed());
 		
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and CloseIcon on the top right corner of the window");
 	}
 	
 	@Then("Admin should see two input fields and their respective text boxes in the program details window")
@@ -186,6 +197,7 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertEquals(programPage.descriptionTextFieldValidate(), "");
 		
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin should see two input fields and their respective text boxes in the program details window");
 	}
 
 	@Then("Admin should see two radio button for Program Status")
@@ -197,14 +209,15 @@ public class ManageProgram_steps extends BaseClass {
 	}
 	
 	@Given("Admin is on {string} Popup window")
-	public void admin_is_on_popup_window(String string) {
+	public void admin_is_on_popup_window(String string) throws InterruptedException {
 		programPage.clickOnaddProgram();
+		LoggerLoad.info("Admin is on Add Program Popup window");
 	}
 
 	@When("Admin clicks <Save>button without entering any data")
 	public void admin_clicks_save_button_without_entering_any_data() {
 		programPage.clickSave();
-	
+		LoggerLoad.info("Admin clicks <Save>button without entering any data");
 	}
 
 	@Then("Admin gets a Error message alert")
@@ -220,6 +233,7 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertEquals(programPage.getStatusMsg(),"Status is required.");
 	    
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin gets a Error message alert");
 	}
 	
 	// Proram Name From Excel
@@ -229,11 +243,13 @@ public class ManageProgram_steps extends BaseClass {
 		List<Map<String, String>> testData = reader.getData(BaseClass.eXCEL, "Program");
 		String ProgramName = testData.get(rowNumber).get("ProgramName"); 
 		programPage.enterNameTextField(ProgramName);
+		LoggerLoad.info("Admin enter value only in ProgramName using sheetName and RowNumber");
 	}
 
 	@When("Admin clicks Save Button")
 	public void admin_clicks_save_button() {
 		programPage.clickSave();
+		LoggerLoad.info("Admin clicks Save Button");
 	}
 	
     // Excel Reader Program Description
@@ -244,6 +260,7 @@ public class ManageProgram_steps extends BaseClass {
 		List<Map<String, String>> testData = reader.getData(BaseClass.eXCEL, "Program");
 		String ProgramDescription = testData.get(rowNumber).get("ProgramDescription"); 
 		programPage.enterProgramDescriptionTextField(ProgramDescription);
+		LoggerLoad.info("Admin enter value only in Program description using SheetName and RowNumber");
 	}
 	
 	@Then("Admin gets a message alert {string}ProgramName")//program des
@@ -251,17 +268,20 @@ public class ManageProgram_steps extends BaseClass {
          Assert.assertEquals(programPage.getProgramRequiredMsg(), "Program name is required.");
          
          programPage.clickOnClose();
+         LoggerLoad.info("Admin gets a message alert" +programPage.getProgramRequiredMsg()+"ProgramName");
 	}
 	
 	@Then("admin gets a message alert for description")
 	public void admin_gets_a_message_alert_for_description() {
 		Assert.assertEquals(programPage.getprogramDescRequiredMsg(), "Description is required.");
 		programPage.clickOnClose();
+		LoggerLoad.info("admin gets a message alert for description"+programPage.getprogramDescRequiredMsg());
 	}
 
 	@When("Admin selects only Status")
 	public void admin_selects_only_status() {
 		programPage.clickActivel();
+		LoggerLoad.info("Admin selects only Status");
 	}
 	
 	@Then("Admin gets a message alert {string} and {string}")
@@ -270,6 +290,7 @@ public class ManageProgram_steps extends BaseClass {
 	     Assert.assertEquals(programPage.getprogramDescRequiredMsg(), "Description is required.");
 	     
 	     programPage.clickOnClose();
+	     LoggerLoad.info("Admin gets a message alert" +programPage.getProgramRequiredMsg()+  "and"+programPage.getprogramDescRequiredMsg() );
 	}
 	
 	@When("Admin enters only numbers or special char in name and desc column {string} and {int}")
@@ -280,6 +301,7 @@ public class ManageProgram_steps extends BaseClass {
 		programPage.enterNameTextField(ProgramName);
 		String ProgramDescription = testData.get(rowNumber).get("ProgramDescription"); 
 		programPage.enterProgramDescriptionTextField(ProgramDescription);
+		LoggerLoad.info("Admin enters only numbers or special char in name and desc column {string} and {int}");
 	}
 	
 	@Then("Admin gets a Error message alert SpecialCharecters")
@@ -289,16 +311,19 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertEquals(programPage.getprogramDescRequiredMsgSpecialCharacter(), "This field should start with an alphabet and min 2 char.");
 		
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin gets a Error message alert SpecialCharecters"+programPage.getprogramDescRequiredMsgSpecialCharacter()+"and"+programPage.getprogramDescRequiredMsgSpecialCharacter());
 	}
 	
 	@When("Admin clicks Close\\(X) Icon on Program Details form")
 	public void admin_clicks_cancelor_close_x_icon_on_program_details_form() {
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin clicks Close(X) Icon on Program Details form");
 	}
 	
 	@Then("Program Details popup window should be closed without savings")
 	public void program_details_popup_window_should_be_closed_without_savings() {
 		Assert.assertEquals(programPage.manageProgramIsDisplayed(),"Manage Program");
+		LoggerLoad.info("Program Details popup window should be closed without savings");
 	}
 
 	@When("Enter all the required fields with valid values {string} and {int}")
@@ -321,27 +346,32 @@ public class ManageProgram_steps extends BaseClass {
 		}
 		
 		programPage.clickSave();
+		LoggerLoad.info("Enter all the required fields with valid values");
 	}
 
 	@Then("Admin gets a message {string} alert and able to see the new program added in the data table")
 	public void admin_gets_a_message_alert_and_able_to_see_the_new_program_added_in_the_data_table(String string) throws Exception {
 		programPage.validateAddProgramSuccess();
+		LoggerLoad.info("Admin gets a message  alert and able to see the new program added in the data table");
 	}
 
 	@When("Admin clicks <Cancel>button")
 	public void admin_clicks_cancel_button() {
 		programPage.clickCancel();
+		LoggerLoad.info("Admin clicks <Cancel>button");
 	}
 
 	@Then("Admin can see the Program details popup disappears without creating any program")
 	public void admin_can_see_the_program_details_popup_disappears_without_creating_any_program() {
 		Assert.assertEquals(programPage.manageProgramIsDisplayed(),"Manage Program");
+		LoggerLoad.info("Admin can see the Program details popup disappears without creating any program");
 	}
 	
 	@And("Admin clicks <Edit> button on the data table for any row")
-	public void admin_clicks_edit_button_on_the_data_table_for_any_row() {
+	public void admin_clicks_edit_button_on_the_data_table_for_any_row() throws InterruptedException {
 		pageUtils = getCurrentPageUtils(programPage.numberOfRecordstextValidate());
 		programPage.clickOnEditIcon(pageUtils.getRecordsPerPage());
+		LoggerLoad.info("Admin clicks <Edit> button on the data table for any row");
 	}
 
 	@Then("Admin should see a popup open for Program details to edit")
@@ -363,6 +393,7 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertTrue(programPage.saveIsDisplayed());
 		
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin should see a popup open for Program details to edit");
 	}
 
 	@When("Admin edits the Name column using {string} and {int}")
@@ -372,11 +403,13 @@ public class ManageProgram_steps extends BaseClass {
 		String programName = testData.get(rowNumber).get("ProgramName"); 
 		programPage.clearNameTextField();
 		programPage.enterNameTextField(programName);
+		LoggerLoad.info("Admin edits the Name column");
 	}
 
 	@Then("Admin gets a message {string} alert and able to see the updated name in the table for the particular program")
 	public void admin_gets_a_message_alert_and_able_to_see_the_updated_name_in_the_table_for_the_particular_program(String string) throws Exception {
 		programPage.validateEditProgramSuccess();
+		LoggerLoad.info("Admin gets a message {string} alert and able to see the updated name in the table for the particular program");
 	}
 
 	@When("Admin edits the Description column in using {string} and {int}")
@@ -386,21 +419,25 @@ public class ManageProgram_steps extends BaseClass {
 		String programDesc = testData.get(rowNumber).get("ProgramDescription"); 
 		programPage.clearProgramDescriptionTextField();
 		programPage.enterProgramDescriptionTextField(programDesc);
+		LoggerLoad.info("Admin edits the Description column");
 	}
 
 	@Then("Admin gets a message {string} alert and able to see the updated description in the table for the particular program")
 	public void admin_gets_a_message_alert_and_able_to_see_the_updated_description_in_the_table_for_the_particular_program(String string) throws Exception {
 		programPage.validateEditProgramSuccess();
+		LoggerLoad.info("Admin gets a message  program Success alert and able to see the updated description in the table for the particular program");
 	}
 
 	@When("Admin changes the Status")
 	public void admin_changes_the_status() {
 		programPage.clickInactive();
+		LoggerLoad.info("Admin changes the Status");
 	}
 
 	@Then("Admin gets a message {string} alert and able to see the updated status in the table for the particular program")
 	public void admin_gets_a_message_alert_and_able_to_see_the_updated_status_in_the_table_for_the_particular_program(String string) throws Exception {
 		programPage.validateEditProgramSuccess();
+		LoggerLoad.info("Admin gets a message Program Edit Success alert and able to see the updated status in the table for the particular program");
 	}
 
 	@When("Admin edit special char in name and desc column {string} and {int}")
@@ -416,6 +453,7 @@ public class ManageProgram_steps extends BaseClass {
 		
 		programPage.enterNameTextField(programName);
 		programPage.enterProgramDescriptionTextField(programDesc);
+		LoggerLoad.info("Admin edit special char in name and desc");
 	}
 
 	@Then("Admin gets a Error message alert Edit program")
@@ -426,33 +464,39 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertEquals(programPage.getprogramDescRequiredMsgSpecialCharacter(), "This field should start with an alphabet and min 2 char.");
 		
 		programPage.clickOnClose();
+		LoggerLoad.info("Admin gets a Error message alert Edit program");
 	}
 
 	@When("Admin clicks <Cancel>button on edit popup")
 	public void admin_clicks_cancel_button_on_edit_popup() {
 		programPage.clickCancel();
+		LoggerLoad.info("Admin clicks <Cancel>button on edit popup");
 	}
 
 	@Then("Admin can see the Program details popup disappears and can see nothing changed for particular program")
 	public void admin_can_see_the_program_details_popup_disappears_and_can_see_nothing_changed_for_particular_program() {
 		Assert.assertEquals(programPage.manageProgramIsDisplayed(),"Manage Program");
+		LoggerLoad.info("Admin can see the Program details popup disappears and can see nothing changed for particular program");
 	}
 
 	@When("Admin clicks <Save>button on edit popup")
 	public void admin_clicks_save_button_on_edit_popup() {
 		programPage.clickSave();
+		LoggerLoad.info("Admin clicks <Save>button on edit popup");
 	}
 	
 	@Then("Admin gets a message {string} alert and able to see the updated details in the table for the particular program")
 	public void admin_gets_a_message_alert_and_able_to_see_the_updated_details_in_the_table_for_the_particular_program(String string) throws Exception {
 		programPage.validateEditProgramSuccess();
+		LoggerLoad.info("Admin gets a message Edit program Success alert and able to see the updated details in the table for the particular program");
 	}
 
 	// Delete Program step definitions
 	@When("Admin clicks <Delete> button on the data table for any row")
-	public void admin_clicks_delete_button_on_the_data_table_for_any_row() {
+	public void admin_clicks_delete_button_on_the_data_table_for_any_row() throws InterruptedException {
 		pageUtils = getCurrentPageUtils(programPage.numberOfRecordstextValidate());
 		programPage.clickOnDeleteIcon(pageUtils.getRecordsPerPage());
+		LoggerLoad.info("Admin clicks <Delete> button on the data table for any row");
 	}
 	
 	@Then("Admin should see a alert open with heading {string} along with  <YES> and <NO> button for deletion")
@@ -472,6 +516,7 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertTrue(programPage.isDeleteCloseIconDisplayed());
 		
 		programPage.clickOnDeleteCloseIcon();
+		LoggerLoad.info("Admin should see a alert open with heading  <YES> and <NO> button for deletion");
 	}
 	
 	@Then("Admin should see a message {string}")
@@ -480,42 +525,50 @@ public class ManageProgram_steps extends BaseClass {
 		Assert.assertTrue(programPage.getConfrimMsgText().contains("Are you sure you want to delete "));
 		
 		programPage.clickOnDeleteCloseIcon();
+		LoggerLoad.info("Admin should see a message Delete Alert message");
 	}
 	
 	@Given("Admin is on Confirm Deletion alert")
-	public void admin_is_on_confirm_deletion_alert() {
+	public void admin_is_on_confirm_deletion_alert() throws InterruptedException {
 		pageUtils = getCurrentPageUtils(programPage.numberOfRecordstextValidate());
 		programPage.clickOnDeleteIcon(pageUtils.getRecordsPerPage());
+		LoggerLoad.info("Admin is on Confirm Deletion alert");
 	}
 	
 	@When("Admin clicks <YES> button on the alert")
 	public void admin_clicks_yes_button_on_the_alert() {
 		programPage.clickOnYesButton();
+		LoggerLoad.info("Admin clicks <YES> button on the alert");
 	}
 	
 	@Then("Admin gets a message {string} alert and able to see that program deleted in the data table")
 	public void admin_gets_a_message_alert_and_able_to_see_that_program_deleted_in_the_data_table(String string) throws Exception {
 		programPage.validateDeleteProgramSuccess();
+		LoggerLoad.info("Admin gets a message Program Delete Success alert and able to see that program deleted in the data table");
 	}
 	
 	@When("Admin clicks <NO> button on the alert")
 	public void admin_clicks_no_button_on_the_alert() {
 		programPage.clickOnNoButton();
+		LoggerLoad.info("Admin clicks <NO> button on the alert");
 	}
 	
 	@Then("Admin can see the deletion alert disappears without deleting")
 	public void admin_can_see_the_deletion_alert_disappears_without_deleting() {
 		Assert.assertEquals(programPage.manageProgramIsDisplayed(),"Manage Program");
+		LoggerLoad.info("Admin can see the deletion alert disappears without deleting");
 	}
 	
 	@When("Admin clicks Close\\(X) Icon on Deletion alert")
 	public void admin_clicks_close_x_icon_on_deletion_alert() {
 		programPage.clickOnDeleteCloseIcon();
+		LoggerLoad.info("Admin clicks Close(X) Icon on Deletion alert");
 	}
 	
 	@Then("Admin can see the deletion alert disappears without any changes")
 	public void admin_can_see_the_deletion_alert_disappears_without_any_changes() {
 		Assert.assertEquals(programPage.manageProgramIsDisplayed(),"Manage Program");
+		LoggerLoad.info("Admin can see the deletion alert disappears without any changes");
 	}
 	// End of Delete Program step definitions
 

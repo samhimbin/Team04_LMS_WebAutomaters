@@ -2,7 +2,6 @@
 Feature: Program Validation
 	Background: Admin successfully logged in to LMS Portal
 		Given Admin is on dashboard page after Login
-		When  Admin clicks "Program" on the navigation bar
 		
  @1_LandingPage
  Scenario: Validate landing in Program page
@@ -206,7 +205,4 @@ Feature: Program Validation
  Given Admin clicks <Edit> button on the data table for any row
  When Admin clicks <Save>button on edit popup
  Then Admin gets a message "Successful Program Updated" alert and able to see the updated details in the table for the particular program
-
-
-	 
 

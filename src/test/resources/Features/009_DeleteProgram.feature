@@ -2,7 +2,6 @@
 Feature: Delete Program Validation
 	Background: Admin successfully logged in to LMS Portal
 		Given Admin is on dashboard page after Login
-		When  Admin clicks "Program" on the navigation bar
  
  @ValidateDeleteFeature
  Scenario: Validate Delete Feature
