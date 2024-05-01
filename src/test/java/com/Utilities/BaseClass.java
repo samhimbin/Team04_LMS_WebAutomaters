@@ -11,7 +11,7 @@ import com.pageObjects.ProgramPageObject;
 
 public class BaseClass {
 
-	public static String eXCEL = ".\\src/test/resources/TestData/LMS_data.xlsx";
+	public static String eXCEL = "src/test/resources/TestData/LMS_data.xlsx";
 	public ProgramPageObject programpage;
 	public LoginPageObject loginpage;
 	public DashboardPageObject dashboard;
