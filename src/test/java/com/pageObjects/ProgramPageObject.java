@@ -13,14 +13,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.Utilities.LoggerLoad;
+import com.driverFactory.DriverClass;
 
 public class ProgramPageObject {
-	WebDriver driver;
+	public static final int DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC = 1;
 
 	public ProgramPageObject(WebDriver driver) {
 		LoggerLoad.info("entered Manage Program feature");
 		PageFactory.initElements(driver, this);
-		this.driver = driver;
 	}
 
 	@FindBy(id = "username")
@@ -139,7 +139,7 @@ public class ProgramPageObject {
 		dashBoardheader.isDisplayed();
 	}
 	public void clickOnProgramButton() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		programButton.click();
 	}
 	public String manageProgramIsDisplayed() {
@@ -345,7 +345,7 @@ public class ProgramPageObject {
 	public void clickOnEditIcon(int recordsPerPage) {
 		for (int i = 1; i <= recordsPerPage; i++) {
 			if (i == 1) {
-				WebElement rowEditIcon = driver.findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[1]/span[1]"));
+				WebElement rowEditIcon = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[1]/span[1]"));
 				rowEditIcon.click();
 				break;
 			}
@@ -354,7 +354,7 @@ public class ProgramPageObject {
 	public void clickOnDeleteIcon(int recordsPerPage) {
 		for (int i = 1; i <= recordsPerPage; i++) {
 			if (i == 1) {
-				WebElement rowEditIcon = driver.findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[2]/span[1]"));
+				WebElement rowEditIcon = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[2]/span[1]"));
 				rowEditIcon.click();
 				break;
 			}
@@ -366,15 +366,15 @@ public class ProgramPageObject {
 	
 	public void validateAddProgramSuccess() throws Exception {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(DriverClass.getDriver(), Duration.ofSeconds(DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Program Created Successfully')]")));
 			Thread.sleep(1000);
 			
-			WebElement successSummary = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
+			WebElement successSummary = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
 			System.out.println("successSummary:" + successSummary.getText());
 			Assert.assertEquals(successSummary.getText(), "Successful");
 			
-			WebElement successDetail = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
+			WebElement successDetail = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
 			System.out.println("successDetail:" + successDetail.getText());
 			Assert.assertEquals(successDetail.getText(), "Program Created Successfully");
 		} catch (Exception e) {
@@ -385,15 +385,15 @@ public class ProgramPageObject {
 	
 	public void validateEditProgramSuccess() throws Exception {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(DriverClass.getDriver(), Duration.ofSeconds(DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Program Updated')]")));
 			Thread.sleep(1000);
 			
-			WebElement successSummary = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
+			WebElement successSummary = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
 			System.out.println("successSummary:" + successSummary.getText());
 			Assert.assertEquals(successSummary.getText(), "Successful");
 			
-			WebElement successDetail = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
+			WebElement successDetail = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
 			System.out.println("successDetail:" + successDetail.getText());
 			Assert.assertEquals(successDetail.getText(), "Program Updated");
 		} catch (Exception e) {
@@ -403,15 +403,15 @@ public class ProgramPageObject {
 	
 	public void validateDeleteProgramSuccess() throws Exception {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+			WebDriverWait wait = new WebDriverWait(DriverClass.getDriver(), Duration.ofSeconds(DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Program Deleted')]")));
 			Thread.sleep(1000);
 			
-			WebElement successSummary = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
+			WebElement successSummary = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
 			System.out.println("successSummary:" + successSummary.getText());
 			Assert.assertEquals(successSummary.getText(), "Successful");
 			
-			WebElement successDetail = driver.findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
+			WebElement successDetail = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
 			System.out.println("successDetail:" + successDetail.getText());
 			Assert.assertEquals(successDetail.getText(), "Program Deleted");
 		} catch (Exception e) {

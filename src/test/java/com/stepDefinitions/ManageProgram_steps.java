@@ -233,8 +233,6 @@ public class ManageProgram_steps extends BaseClass {
 
 	@When("Admin clicks Save Button")
 	public void admin_clicks_save_button() {
-		WebElement save = DriverClass.getDriver().findElement(By.xpath("//*[@id=\"saveProgram\"]"));
-		save.click();
 		programPage.clickSave();
 	}
 	
@@ -257,10 +255,7 @@ public class ManageProgram_steps extends BaseClass {
 	
 	@Then("admin gets a message alert for description")
 	public void admin_gets_a_message_alert_for_description() {
-		WebElement programDescRequiredMsg = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-dialog/div/div/div[2]/div[2]/small"));
-		LoggerLoad.info("Program Description Required Message: " + programDescRequiredMsg.getText());
-		Assert.assertEquals(programDescRequiredMsg.getText(), "Description is required.");
-		
+		Assert.assertEquals(programPage.getprogramDescRequiredMsg(), "Description is required.");
 		programPage.clickOnClose();
 	}
 
