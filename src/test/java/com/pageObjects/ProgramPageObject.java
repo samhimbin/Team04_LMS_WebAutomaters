@@ -22,18 +22,6 @@ public class ProgramPageObject {
 		LoggerLoad.info("entered Manage Program feature");
 		PageFactory.initElements(driver, this);
 	}
-
-	@FindBy(id = "username")
-	@CacheLookup
-	WebElement username;
-	
-	@FindBy(id = "password")
-	@CacheLookup
-	WebElement password;
-	
-	@FindBy(id = "login")
-	@CacheLookup
-	WebElement loginBtn;	
 	
 	@FindBy(xpath="//span[normalize-space()='LMS - Learning Management System']")
 	@CacheLookup
@@ -117,6 +105,7 @@ public class ProgramPageObject {
 		
 	}*/
 	@FindBy(xpath="/html/body/app-root/app-program/p-dialog/div/div/div[1]/div/button")
+	@CacheLookup
 	WebElement close;
 	
 	public String numberOfRecordstextValidate() {
@@ -125,21 +114,10 @@ public class ProgramPageObject {
 	public String getfooterMessage() {
 		return footerMessage.getText();
 	}
-
-	public void enterUserName(String Uname) {
-		username.sendKeys("sdetorganizers@gmail.com");
-	}
-	public void enterPasswordField(String Pwd) {
-		password.sendKeys("UIHackathon@02");
-	}
-	public void clickOnLoginButton() {
-		loginBtn.click();
-	}
 	public void headerIsDisplayed() {
 		dashBoardheader.isDisplayed();
 	}
 	public void clickOnProgramButton() throws InterruptedException {
-		Thread.sleep(2000);
 		programButton.click();
 	}
 	public String manageProgramIsDisplayed() {
@@ -154,7 +132,8 @@ public class ProgramPageObject {
 	public String addProgramButtonValidation() {
 		return addProgramButton.getText();
 	}
-	public void clickOnaddProgram() {
+	public void clickOnaddProgram() throws InterruptedException {
+		Thread.sleep(2000);
 		addProgramButton.click();
 	}
 	
@@ -342,7 +321,8 @@ public class ProgramPageObject {
 	public void clickOnEditIcon() {
 		editicon.click();
 	}
-	public void clickOnEditIcon(int recordsPerPage) {
+	public void clickOnEditIcon(int recordsPerPage) throws InterruptedException {
+		Thread.sleep(2000);
 		for (int i = 1; i <= recordsPerPage; i++) {
 			if (i == 1) {
 				WebElement rowEditIcon = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[1]/span[1]"));
@@ -351,7 +331,8 @@ public class ProgramPageObject {
 			}
 		}
 	}
-	public void clickOnDeleteIcon(int recordsPerPage) {
+	public void clickOnDeleteIcon(int recordsPerPage) throws InterruptedException {
+		Thread.sleep(2000);
 		for (int i = 1; i <= recordsPerPage; i++) {
 			if (i == 1) {
 				WebElement rowEditIcon = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/div/mat-card/mat-card-content/p-table/div/div[1]/table/tbody/tr["+ i +"]/td[5]/div/span/button[2]/span[1]"));
@@ -368,7 +349,6 @@ public class ProgramPageObject {
 		try {
 			WebDriverWait wait = new WebDriverWait(DriverClass.getDriver(), Duration.ofSeconds(DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Program Created Successfully')]")));
-			Thread.sleep(1000);
 			
 			WebElement successSummary = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
 			System.out.println("successSummary:" + successSummary.getText());
@@ -377,6 +357,7 @@ public class ProgramPageObject {
 			WebElement successDetail = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
 			System.out.println("successDetail:" + successDetail.getText());
 			Assert.assertEquals(successDetail.getText(), "Program Created Successfully");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new Exception("Error while waiting for the add program success notification to appear: " + e.getMessage());
@@ -387,7 +368,6 @@ public class ProgramPageObject {
 		try {
 			WebDriverWait wait = new WebDriverWait(DriverClass.getDriver(), Duration.ofSeconds(DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Program Updated')]")));
-			Thread.sleep(1000);
 			
 			WebElement successSummary = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
 			System.out.println("successSummary:" + successSummary.getText());
@@ -396,6 +376,7 @@ public class ProgramPageObject {
 			WebElement successDetail = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
 			System.out.println("successDetail:" + successDetail.getText());
 			Assert.assertEquals(successDetail.getText(), "Program Updated");
+			
 		} catch (Exception e) {
 			throw new Exception("Error while waiting for the edit program success notification to appear: " + e.getMessage());
 		}
@@ -405,7 +386,6 @@ public class ProgramPageObject {
 		try {
 			WebDriverWait wait = new WebDriverWait(DriverClass.getDriver(), Duration.ofSeconds(DISAPPEAR_MEESAGE_WAIT_TIME_IN_SEC));
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Program Deleted')]")));
-			Thread.sleep(1000);
 			
 			WebElement successSummary = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[1]"));
 			System.out.println("successSummary:" + successSummary.getText());
@@ -414,6 +394,7 @@ public class ProgramPageObject {
 			WebElement successDetail = DriverClass.getDriver().findElement(By.xpath("/html/body/app-root/app-program/p-toast/div/p-toastitem/div/div/div/div[2]"));
 			System.out.println("successDetail:" + successDetail.getText());
 			Assert.assertEquals(successDetail.getText(), "Program Deleted");
+			
 		} catch (Exception e) {
 			throw new Exception("Error while waiting for the delete program success notification to appear: " + e.getMessage());
 		}

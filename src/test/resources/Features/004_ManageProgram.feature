@@ -2,7 +2,6 @@
 Feature: Program Validation
 	Background: Admin successfully logged in to LMS Portal
 		Given Admin is on dashboard page after Login
-		When  Admin clicks "Program" on the navigation bar
 		
  @1_LandingPage
  Scenario: Validate landing in Program page
