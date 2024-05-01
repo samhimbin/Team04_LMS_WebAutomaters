@@ -99,7 +99,119 @@ public class ManageBatch_steps extends BaseClass {
 		LoggerLoad.info("Alert message: " + alertText);
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+//	@Then("Each row in the data table should have a checkbox")
+//	public void each_row_in_the_data_table_should_have_a_checkbox() {
+//		batchpage.checkBoxFunction();
+//	}
+//	@Then("Each row in the data table should have a edit icon that is enabled")
+//	public void each_row_in_the_data_table_should_have_a_edit_icon_that_is_enabled() {
+//		batchpage.editIconFunction();
+//	    
+//	}
+//	
+//	@Then("Each row in the data table should have a delete icon that is enabled")
+//	public void each_row_in_the_data_table_should_have_a_delete_icon_that_is_enabled() {
+//		batchpage.deleteIconFunction();
+//	}
+	
+	@When("Admin clicks the delete icon")
+	public void admin_clicks_the_delete_icon() {
+		batchpage.rowDeleteFunction();
+	    
+	}
+
+	@Then("Alert appears with yes and No option")
+	public void alert_appears_with_yes_and_no_option() throws Throwable {
+		
+		String actualMsg = null;
 
 
+		actualMsg = batchpage.alertDisplyFunction();
 
+		LoggerLoad.info("Actual message is  : " + actualMsg);
+		assertEquals(actualMsg,"Alert appears with yes and No option", "Result matched");
+		
+
+	}
+	
+	@When("You click yes option")
+	public void you_click_yes_option() {
+		batchpage.batchDeleteYes();
+	    
+	}
+
+	@Then("Batch deleted alert pops and batch is no more available in data table")
+	public void batch_deleted_alert_pops_and_batch_is_no_more_available_in_data_table() {
+//		assertTrue(signinPg.getConfrimMsgText().contains("Successful"));
+//        
+//        programPage.clickOnClose();
+//
+//
+//		actualDeleteMsg = signinPg.alertDisplayFunction3();
+
+//		LoggerLoad.info("Actual message is  : " + actualDeleteMsg);
+		//assertEquals(actualDeleteMsg,"Alert appears with yes and No option", "Result matched");
+	    
+	}
+
+	@When("you click No option")
+	public void you_click_no_option() {
+		batchpage.batchDeleteNo();
+	}
+
+	@Then("Batch is still listed in data table")
+	public void batch_is_still_listed_in_data_table() {
+		batchpage.batchserachfunction();
+	}
+	
+	@Given("None of the checkboxes in data table are selected")
+	public void none_of_the_checkboxes_in_data_table_are_selected() {
+		batchpage.checkboxFunction();
+	    
+	}
+
+	@Then("The delete icon under the Manage Batch header should be disabled")
+	public void the_delete_icon_under_the_manage_batch_header_should_be_disabled() { 
+		batchpage.disabledDeleteFunction();
+	}
+	@Given("One of the checkbox\\/ row is selected")
+	public void one_of_the_checkbox_row_is_selected() {
+		//selected first row
+		batchpage.selectOnlyOneRow();
+	}
+
+	@When("Click delete icon below Manage Batch header")
+	public void click_delete_icon_below_manage_batch_header() {
+		batchpage.disabledDeleteFunctiontoDelete();
+	    
+	}
+
+	@Then("The respective row in the data table is deleted")
+	public void the_respective_row_in_the_data_table_is_deleted() {
+		batchpage.batchDeleteYes();	
+		
+	}
+
+	@Given("Two or more checkboxes\\/row is selected")
+	public void two_or_more_checkboxes_row_is_selected() {
+		
+	    //selcet first 2 rows
+		
+		batchpage.selectMultiRow();
+		
+	}
+	
 }
+	
+	
+
+
+
+

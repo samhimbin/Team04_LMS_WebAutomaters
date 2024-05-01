@@ -1,6 +1,10 @@
 package com.pageObjects;
 
 import static org.testng.Assert.assertEquals;
+
+import java.util.List;
+import java.util.Random;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,6 +39,43 @@ public class BatchPageObject {
 	WebElement editIconBtn;
 	@FindBy(xpath = "//p-table/div/div[1]/table/tbody/tr[1]/td[7]/div/span[2]/button/span[1]")
 	WebElement deleteIconBtn;
+	
+	
+	
+	@FindBy(xpath="//*[@id='pr_id_5-label']") 
+	static WebElement bacthDetailsBtn;
+	@FindBy(xpath="//app-batch/p-dialog/div/div/div[2]/div[1]") 
+	static WebElement popupName;
+	@FindBy(xpath="app-batch/p-dialog/div/div/div[2]/div[3]/label") 
+	static WebElement programName;
+	@FindBy(xpath="//*[@id='batchName']") 
+	static WebElement bacthName;
+	@FindBy(id="programName") 
+	static List<WebElement> programNameAddBatch;
+	//@FindBy(xpath="app-batch/p-dialog/div/div/div[2]/div[3]/p-dropdown/div/div[2]/span") static List<WebElement> programNameAddBatch;
+	@FindBy(xpath="app-batch/p-dialog/div/div/div[2]/div[4]/div[2]/p-radiobutton/div/div[2]") 
+	static WebElement activeRadioBtn;
+	@FindBy(xpath="app-batch/p-dialog/div/div/div[3]/button[2]") 
+	static WebElement saveBtn;
+	@FindBy(xpath="//div[@class= 'action']/span[2]")  
+	static WebElement rowDeleteBtn;
+//	@FindBy(xpath="//span[@class='p-button-label' and text()='Yes']") 
+//	static WebElement  yesBtn;
+	
+	@FindBy(xpath="//p-confirmdialog/div/div/div[3]/button[2]/span[2]")
+	static WebElement  yesBtn;
+	//@FindBy(xpath="//span[text()=’No’]") static WebElement  noBtn;
+	@FindBy(xpath="//*[text()='No']") 
+	static WebElement  noBtn;
+	//@FindBy(xpath="//span[@class='p-button-label' and text()='No']") static WebElement  noBtn;
+	@FindBy(xpath="//*[@id='filterGlobal']") 
+	static WebElement batchsearch;
+	@FindBy(xpath="//div[@role = 'checkbox']")
+	static WebElement checkboxBtn;
+	@FindBy(xpath="//div[@role = 'checkbox']")
+	static List<WebElement> checkboxBtn1;
+	
+	
 
 	public void clickBatchBtn() {
 		batchBtn.click();
@@ -105,4 +146,110 @@ public class BatchPageObject {
 		return alertText;
 		
 	}
+	
+	
+	
+	
+	
+	
+public WebElement batchDetails() {
+    	
+    	return programName;
+    }
+    
+    public void batchNameFunction() {
+    	
+    	
+    	bacthName.sendKeys("Batch");
+    	
+    }
+    
+    public void selectActiveFunction() {
+        
+        activeRadioBtn.click();
+        
+        }
+        
+        public void saveFunction() {
+        	saveBtn.click();
+        	
+        }
+        public void rowDeleteFunction() {
+        	rowDeleteBtn.click();
+        }
+        
+        public void batchDeleteYes() {
+        	yesBtn.click();
+        }	
+
+        public void batchDeleteNo() {
+            	noBtn.click();
+        }
+
+        public void batchserachfunction() {
+        	batchsearch.click();
+        	batchsearch.sendKeys("a23");
+    }
+        
+        public void checkboxFunction() {
+        	
+        	
+        	boolean isSelected = checkboxBtn.isSelected();
+            
+            // Assert the checkbox status
+            if (isSelected) {
+                System.out.println("Checkbox is selected");
+            } else {
+            	
+                System.out.println("Checkbox is not selected");
+                
+            }
+            
+        } 
+            
+            public void  selectOnlyOneRow() {
+            	
+                Random random = new Random();
+                
+                // Generate a random number between 1 and 5 (inclusive)
+                int randomNumber = random.nextInt(5) + 1;
+            	
+            	
+            	List<WebElement> rows = checkboxBtn1;
+            	rows.get(randomNumber).click();
+            	String rowMessage =  rows.get(randomNumber).getText();
+            	System.out.println(" Selected random number: " + randomNumber);
+            	
+            	System.out.println("Deleted row is : " + randomNumber);
+            	
+            }
+            
+            public void disabledDeleteFunctiontoDelete() {
+            	
+            	disabledDeleteBtn.click();
+            }
+            
+            public void  selectMultiRow() {
+            	
+            
+            	List<WebElement> rows = checkboxBtn1;
+               Random random = new Random();
+                
+                // Generate a random number between 1 and 5 (inclusive)
+                int randomNumber = random.nextInt(5) + 1;
+            	
+            	if (rows.size() >= 2) {
+                    // Select the first two rows
+                    for (int i = 0; i < 2; i++) {
+                        rows.get(randomNumber).click(); // Click to select the row
+                        // Add additional logic if needed, such as waiting or verifying selection
+                    }
+                } else {
+                    System.out.println("Not enough rows to select.");
+                    // Handle the case wh
+            	
+            	}
+            	
+            }
+        
 }
