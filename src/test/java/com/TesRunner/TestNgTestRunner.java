@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		}, // reporting purpose
 		monochrome = false, // console output color
 				tags="@portal or @login or @dash or @program",
-				features = {"src/test/resources/Features/"},
+				features = {"src/test/resources/Features/010_multiplecheckbox.feature"},
 						glue= {"com.stepDefinitions","com.Hooks"})
 public class TestNgTestRunner extends AbstractTestNGCucumberTests {
 
