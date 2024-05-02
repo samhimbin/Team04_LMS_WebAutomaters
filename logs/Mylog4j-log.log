@@ -12652,3 +12652,636 @@
 ['INFO ]2024-04-30 17:23:37,967(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
 ['INFO ]2024-04-30 17:23:37,985(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
 >>>>>>> f220391ae653767cbc49add958b7bc19d324613c
+['INFO ]2024-04-30 19:00:29,138(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:29,144(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:29,146(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:29,155(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:34,603(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:34,605(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Home page
+['INFO ]2024-04-30 19:00:34,638(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:34,642(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:34,642(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:34,642(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:35,373(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave inValid URL
+['INFO ]2024-04-30 19:00:45,468(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-ResponseCode: 0
+['INFO ]2024-04-30 19:00:45,468(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin recieves 404 Page Not Found error as response
+['INFO ]2024-04-30 19:00:45,539(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:45,540(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:45,540(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:45,540(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:45,970(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:51,038(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-No Broken links in Login Page
+['INFO ]2024-04-30 19:00:51,059(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:51,060(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:51,060(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:51,060(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:51,279(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:55,957(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see correct spellings in all fields
+['INFO ]2024-04-30 19:00:55,972(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:55,973(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:55,973(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:55,973(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:56,559(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:56,618(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Alignment of Logo is :Left
+['INFO ]2024-04-30 19:00:56,629(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:56,629(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:56,630(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:56,630(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:56,843(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:56,894(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:56,895(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:56,895(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:56,896(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:57,134(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:57,220(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Image is visually inspected to Verify Application Name
+['INFO ]2024-04-30 19:00:57,242(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:57,242(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:57,243(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:57,243(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:57,774(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:57,868(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Image is visually inspected to Verify Company Name
+['INFO ]2024-04-30 19:00:57,881(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:57,881(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:57,881(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:57,881(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:58,406(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:58,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-phrase Recieved :Please login to LMS application
+['INFO ]2024-04-30 19:00:58,448(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:58,448(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:58,449(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:58,449(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:58,991(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:59,007(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Total fields Present:  2
+['INFO ]2024-04-30 19:00:59,030(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:59,030(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:59,031(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:59,031(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:59,307(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:59,340(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Placeholder for Text field 1: User
+['INFO ]2024-04-30 19:00:59,368(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:59,369(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:59,369(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:59,370(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:00:59,624(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:00:59,649(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Asterik for Text field 1: *
+['INFO ]2024-04-30 19:00:59,676(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:00:59,677(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:00:59,677(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:00:59,677(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:00,206(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:00,235(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Placeholder for Text field 2: Password
+['INFO ]2024-04-30 19:01:00,265(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:00,265(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:00,265(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:01:00,266(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:00,808(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:00,844(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Asterik for Text field 2: *
+['INFO ]2024-04-30 19:01:00,877(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:00,878(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:00,878(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:01:00,879(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:01,059(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:01,140(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Input fields are aligned in :Left
+['INFO ]2024-04-30 19:01:01,147(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:01,147(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:01,148(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:01:01,148(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:01,320(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:01,356(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button is present: true
+['INFO ]2024-04-30 19:01:01,387(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:01,387(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:01,388(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:01:01,388(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:01,564(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:01,679(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button is in the :Left
+['INFO ]2024-04-30 19:01:01,685(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:01,685(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:01,685(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:01:01,685(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:01,850(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:01,874(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-color of Descriptive text of user field: rgba(0, 0, 0, 0.87)
+['INFO ]2024-04-30 19:01:01,882(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:01,883(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:01,883(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:01:01,884(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:02,058(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:02,081(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-color of Descriptive text of password field: rgba(0, 0, 0, 0.87)
+['INFO ]2024-04-30 19:01:02,090(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:02,091(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:02,317(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:02,317(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:02,318(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:02,321(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User forgot to enter password
+['INFO ]2024-04-30 19:01:03,438(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:01:08,657(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:08,658(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:08,831(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:08,831(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:08,831(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:08,832(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User forgot to enter username
+['INFO ]2024-04-30 19:01:09,076(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:01:09,099(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Actual error message:Please enter your user name
+['INFO ]2024-04-30 19:01:09,281(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:09,281(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:09,449(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:09,449(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:09,449(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:09,450(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:01:09,733(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:01:09,882(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Actual error message:Invalid username and password Please try again
+['INFO ]2024-04-30 19:01:09,882(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Expected error message:Invalid username and password Please try again
+['INFO ]2024-04-30 19:01:10,050(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:10,051(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:10,233(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:10,233(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:10,233(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:10,234(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:01:10,466(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login credentials entered
+['INFO ]2024-04-30 19:01:10,515(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:01:10,515(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Dashboard Page
+['INFO ]2024-04-30 19:01:10,523(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:10,523(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:10,710(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:10,711(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:10,711(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:10,712(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:01:10,937(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login credentials entered
+['INFO ]2024-04-30 19:01:11,109(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button action using mouse is successful
+['INFO ]2024-04-30 19:01:11,110(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Dashboard Page
+['INFO ]2024-04-30 19:01:11,115(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:11,116(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:11,310(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:01:11,310(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:11,310(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:11,311(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:01:11,549(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login credentials entered
+['INFO ]2024-04-30 19:01:11,606(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button action using keyboard is successful 
+['INFO ]2024-04-30 19:01:11,607(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Dashboard Page
+['INFO ]2024-04-30 19:01:11,614(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:11,614(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:11,615(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:11,615(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:11,618(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:11,621(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:11,833(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:11,833(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:11,833(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:11,833(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:11,834(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:11,834(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:11,835(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-navigation time in milliseconds :0
+['INFO ]2024-04-30 19:01:11,840(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:11,841(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:11,841(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:11,841(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:11,841(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:11,842(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:16,887(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-No Broken links in Login Page
+['INFO ]2024-04-30 19:01:16,894(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:16,895(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:16,895(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:16,895(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:16,896(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:16,896(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:16,937(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see LMS - Learning Management System as title
+['INFO ]2024-04-30 19:01:16,944(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:16,944(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:16,945(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:16,945(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:16,946(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:16,947(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:16,993(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Alignment of LMS title is on top :Leftcorner of page
+['INFO ]2024-04-30 19:01:16,997(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:16,998(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:16,998(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:16,998(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:16,999(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:16,999(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:18,244(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see correct spellings in navigation bar text
+['INFO ]2024-04-30 19:01:18,250(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:18,251(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:18,251(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:18,252(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:18,253(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:18,253(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:19,096(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see correct spelling and space in LMS title
+['INFO ]2024-04-30 19:01:19,109(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:19,109(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:19,110(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:19,110(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:19,111(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:19,112(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:19,167(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin should see the navigation bar text on the top Right side
+['INFO ]2024-04-30 19:01:19,175(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:19,176(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:19,176(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:19,176(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:19,177(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:19,177(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:19,221(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see 1st Program in the 1st place
+['INFO ]2024-04-30 19:01:19,229(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:19,229(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:19,229(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:19,229(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:19,230(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:19,231(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:19,296(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see Batch in the 2nd place
+['INFO ]2024-04-30 19:01:19,301(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:19,301(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:19,301(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:19,302(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:19,303(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:19,303(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:19,429(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see User in the 3rd place
+['INFO ]2024-04-30 19:01:19,437(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:01:19,437(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:01:19,438(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:01:19,438(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:01:19,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:01:19,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:01:19,554(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see Logout in the 4th place
+['INFO ]2024-04-30 19:17:15,905(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:15,911(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:15,912(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:15,923(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:20,944(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:20,945(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Home page
+['INFO ]2024-04-30 19:17:20,975(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:20,978(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:20,979(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:20,979(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:21,460(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave inValid URL
+['INFO ]2024-04-30 19:17:31,550(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-ResponseCode: 0
+['INFO ]2024-04-30 19:17:31,550(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin recieves 404 Page Not Found error as response
+['INFO ]2024-04-30 19:17:31,615(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:31,616(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:31,617(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:31,618(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:32,026(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:37,062(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-No Broken links in Login Page
+['INFO ]2024-04-30 19:17:37,083(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:37,083(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:37,084(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:37,084(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:37,281(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:42,292(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see correct spellings in all fields
+['INFO ]2024-04-30 19:17:42,312(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:42,312(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:42,313(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:42,313(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:42,621(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:42,680(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Alignment of Logo is :Left
+['INFO ]2024-04-30 19:17:42,693(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:42,693(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:42,693(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:42,693(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:42,878(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:42,934(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:42,935(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:42,935(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:42,936(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:43,109(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:43,211(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Image is visually inspected to Verify Application Name
+['INFO ]2024-04-30 19:17:43,226(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:43,226(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:43,227(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:43,227(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:43,413(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:43,476(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Image is visually inspected to Verify Company Name
+['INFO ]2024-04-30 19:17:43,488(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:43,488(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:43,490(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:43,491(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:43,674(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:43,704(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-phrase Recieved :Please login to LMS application
+['INFO ]2024-04-30 19:17:43,712(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:43,712(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:43,712(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:43,713(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:43,891(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:43,909(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Total fields Present:  2
+['INFO ]2024-04-30 19:17:43,930(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:43,930(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:43,933(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:43,934(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:44,121(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:44,157(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Placeholder for Text field 1: User
+['INFO ]2024-04-30 19:17:44,187(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:44,187(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:44,188(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:44,188(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:44,379(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:44,411(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Asterik for Text field 1: *
+['INFO ]2024-04-30 19:17:44,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:44,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:44,440(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:44,440(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:44,622(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:44,656(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Placeholder for Text field 2: Password
+['INFO ]2024-04-30 19:17:44,689(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:44,689(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:44,690(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:44,690(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:44,869(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:44,896(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Asterik for Text field 2: *
+['INFO ]2024-04-30 19:17:44,923(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:44,924(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:44,924(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:44,924(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:45,114(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:45,236(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Input fields are aligned in :Left
+['INFO ]2024-04-30 19:17:45,244(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:45,245(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:45,245(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:45,245(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:45,443(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:45,485(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button is present: true
+['INFO ]2024-04-30 19:17:45,521(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:45,521(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:45,522(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:45,522(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:45,719(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:45,863(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button is in the :Left
+['INFO ]2024-04-30 19:17:45,872(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:45,872(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:45,872(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:45,873(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:46,061(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:46,095(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-color of Descriptive text of user field: rgba(0, 0, 0, 0.87)
+['INFO ]2024-04-30 19:17:46,106(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:46,107(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:46,107(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Launching Browser
+['INFO ]2024-04-30 19:17:46,108(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:46,312(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:46,345(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-color of Descriptive text of password field: rgba(0, 0, 0, 0.87)
+['INFO ]2024-04-30 19:17:46,354(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:46,355(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:46,836(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:46,836(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:17:46,837(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:46,840(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User forgot to enter password
+['INFO ]2024-04-30 19:17:47,821(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:17:53,272(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:53,273(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:53,522(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:53,523(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:17:53,523(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:53,524(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User forgot to enter username
+['INFO ]2024-04-30 19:17:53,748(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:17:59,120(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:17:59,120(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:17:59,909(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:17:59,910(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:17:59,910(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:17:59,911(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:18:00,478(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:18:00,697(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Actual error message:Invalid username and password Please try again
+['INFO ]2024-04-30 19:18:00,697(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Expected error message:Invalid username and password Please try again
+['INFO ]2024-04-30 19:18:01,144(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:01,144(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:01,325(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:18:01,326(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:01,326(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:01,326(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:18:01,510(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login credentials entered
+['INFO ]2024-04-30 19:18:01,559(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button got clicked
+['INFO ]2024-04-30 19:18:01,560(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Dashboard Page
+['INFO ]2024-04-30 19:18:01,569(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:01,569(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:01,758(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:18:01,759(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:01,759(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:01,760(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:18:01,941(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login credentials entered
+['INFO ]2024-04-30 19:18:02,137(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button action using mouse is successful
+['INFO ]2024-04-30 19:18:02,138(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Dashboard Page
+['INFO ]2024-04-30 19:18:02,145(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:02,146(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:02,323(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave correct URL portal
+['INFO ]2024-04-30 19:18:02,323(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:02,323(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:02,324(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2024-04-30 19:18:02,505(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login credentials entered
+['INFO ]2024-04-30 19:18:02,560(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Login button action using keyboard is successful 
+['INFO ]2024-04-30 19:18:02,561(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin landed on Dashboard Page
+['INFO ]2024-04-30 19:18:02,570(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:02,570(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:02,571(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:02,571(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:02,574(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:02,575(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:02,777(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:02,778(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:02,778(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:02,778(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:02,779(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:02,779(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:02,779(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-navigation time in milliseconds :0
+['INFO ]2024-04-30 19:18:02,790(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:02,790(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:02,791(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:02,791(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:02,792(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:02,792(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:07,855(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-No Broken links in Login Page
+['INFO ]2024-04-30 19:18:07,861(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:07,861(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:07,862(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:07,862(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:07,863(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:07,863(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:07,899(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see LMS - Learning Management System as title
+['INFO ]2024-04-30 19:18:07,908(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:07,909(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:07,909(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:07,909(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:07,910(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:07,911(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:07,957(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Alignment of LMS title is on top :Leftcorner of page
+['INFO ]2024-04-30 19:18:07,961(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:07,962(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:07,962(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:07,962(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:07,963(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:07,963(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:09,466(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see correct spellings in navigation bar text
+['INFO ]2024-04-30 19:18:09,475(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:09,475(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:09,476(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:09,476(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:09,477(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:09,477(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:10,408(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see correct spelling and space in LMS title
+['INFO ]2024-04-30 19:18:10,425(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:10,426(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:10,426(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:10,426(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:10,427(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:10,428(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:10,483(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin should see the navigation bar text on the top Right side
+['INFO ]2024-04-30 19:18:10,489(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:10,489(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:10,490(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:10,490(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:10,490(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:10,491(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:10,530(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see 1st Program in the 1st place
+['INFO ]2024-04-30 19:18:10,537(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:10,537(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:10,538(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:10,538(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:10,538(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:10,539(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:10,597(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see Batch in the 2nd place
+['INFO ]2024-04-30 19:18:10,603(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:10,604(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:10,604(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:10,604(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:10,606(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:10,606(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:10,698(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see User in the 3rd place
+['INFO ]2024-04-30 19:18:10,705(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:10,705(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:10,706(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin is in Home Page
+['INFO ]2024-04-30 19:18:10,706(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-enter homepage feature
+['INFO ]2024-04-30 19:18:10,707(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Dashboard feature
+['INFO ]2024-04-30 19:18:10,707(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin gave valid credentials and landed on Dashboard Page
+['INFO ]2024-04-30 19:18:10,830(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see Logout in the 4th place
+['INFO ]2024-04-30 19:18:10,837(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:10,838(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:10,841(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:10,854(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:11,939(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:11,950(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-currentUrl :https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+['INFO ]2024-04-30 19:18:11,988(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see the URL to be :https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/
+['INFO ]2024-04-30 19:18:11,994(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:11,995(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:11,996(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:12,006(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:13,072(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:13,115(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin see a heading with text Manage Program on the page
+['INFO ]2024-04-30 19:18:13,122(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:13,122(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:13,122(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:13,133(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:14,203(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:14,240(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:14,240(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:14,241(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:14,250(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:15,320(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:15,348(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Footer Message ------>In total there are 44 programs.
+['INFO ]2024-04-30 19:18:15,379(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:15,379(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:15,379(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:15,388(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:16,465(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:16,503(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:16,504(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:16,504(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:16,513(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:17,570(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:17,611(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:17,611(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:17,611(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:17,621(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:18,696(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:18,736(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:18,736(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:18,737(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:18,745(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:19,852(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:19,949(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:19,949(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:19,950(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:19,955(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:21,032(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:21,126(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:21,126(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:21,127(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:21,133(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:22,196(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:22,356(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:22,356(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:22,356(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:22,362(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:23,434(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:23,729(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:23,730(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:23,730(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:23,735(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:24,808(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:24,851(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:24,851(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:24,851(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:24,859(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:25,926(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:26,311(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:26,311(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:26,312(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:26,319(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:27,385(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-Admin clicked on Programfrom navigation bar
+['INFO ]2024-04-30 19:18:27,685(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:27,686(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:27,686(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:27,693(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:29,941(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:29,941(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:29,941(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:29,950(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:32,157(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:32,157(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:32,157(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:32,166(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:34,443(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:34,444(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:34,444(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:34,451(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:36,713(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:36,714(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:36,714(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:36,721(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:38,994(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:38,994(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:38,994(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:39,004(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:41,233(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:41,233(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:41,233(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:41,241(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:43,452(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:43,453(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:43,453(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:43,460(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:45,694(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:45,694(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:45,694(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:45,703(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:47,959(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:47,960(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:47,960(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:47,970(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:50,176(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:50,176(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:50,177(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:50,190(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:52,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:52,439(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:52,440(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:52,448(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:54,683(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:54,683(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:54,683(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:54,689(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:56,989(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:56,989(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:56,989(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:56,999(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:18:59,219(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:18:59,219(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:18:59,220(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:18:59,226(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
+['INFO ]2024-04-30 19:19:01,494(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-driver setup
+['INFO ]2024-04-30 19:19:01,494(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-getdriver
+['INFO ]2024-04-30 19:19:01,494(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-entered Manage Program feature
+['INFO ]2024-04-30 19:19:01,504(yyyy-MM-ddHH:mm:ss.SSS][main]com.Utilities.LoggerLoad1)-dashboardTitle=LMS
