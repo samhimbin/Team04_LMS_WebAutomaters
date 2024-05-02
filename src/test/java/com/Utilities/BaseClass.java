@@ -8,6 +8,7 @@ import com.pageObjects.DashboardPageObject;
 import com.pageObjects.LogOutPageObjects;
 import com.pageObjects.LoginPageObject;
 import com.pageObjects.ProgramPageObject;
+import com.pageObjects.UserPageObject;
 
 
 public class BaseClass {
@@ -19,7 +20,7 @@ public class BaseClass {
 	public BatchPageObject batchpage;
 	protected PageUtils pageUtils;
 	public LogOutPageObjects logOutPage;
-	//public UserPageObject userpage;
+	public UserPageObject userpage;
 	
 	//Manage Program 
 	public static String ExpectedprogramUrl ="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/";
