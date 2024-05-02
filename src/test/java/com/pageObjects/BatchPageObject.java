@@ -182,7 +182,7 @@ public class BatchPageObject {
 	public void clickXbutton() {
 		closeXButton.click();
 	}
-	public void batchPopElements() {
+	/*public void batchPopElements() {
 		List<Object> popUpFields = new ArrayList<>();
 		
 	
@@ -206,7 +206,7 @@ public class BatchPageObject {
 			
 		}
 	
-	}
+	}*/
 
 public void clickOncancelButton() {
 	cancelButton.click();

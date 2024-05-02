@@ -221,7 +221,7 @@ public class ManageProgram_steps extends BaseClass {
 		LoggerLoad.info("Admin clicks <Save>button without entering any data");
 	}
 
-	@Then("Admin gets a Error message alert")
+	@Then("Admin gets a Error message alertProgram")
 	public void admin_gets_a_error_message_alert() {
 		Assert.assertTrue(programPage.programNameValidate().startsWith("Name"));
 		
@@ -356,7 +356,7 @@ public class ManageProgram_steps extends BaseClass {
 		LoggerLoad.info("Admin gets a message  alert and able to see the new program added in the data table");
 	}
 
-	@When("Admin clicks <Cancel>button")
+	@When("Admin clicks <Cancel>buttonProgram")
 	public void admin_clicks_cancel_button() {
 		programPage.clickCancel();
 		LoggerLoad.info("Admin clicks <Cancel>button");

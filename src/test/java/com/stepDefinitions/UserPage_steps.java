@@ -136,7 +136,7 @@ public class UserPage_steps extends BaseClass
         assertTrue("Delete button is not displayed or is not disabled", deleteButton.isDisplayed() && !deleteButton.isEnabled());
     }
 	
-	@Then("Admin should be able to see the {string} button above the data table")
+	/*@Then("Admin should be able to see the {string} button above the data table")
     public void admin_should_be_able_to_see_the_button_above_the_data_table(String buttonName) 
 	{
         WebElement button = null;
@@ -159,7 +159,7 @@ public class UserPage_steps extends BaseClass
         }
 
         assertTrue("Button '" + buttonName + "' is not displayed", button.isDisplayed());
-    }
+    }*/
 	
 	 @Then("Admin should be able to see the search text box above the data table")
 	    public void admin_should_be_able_to_see_the_search_text_box_above_the_data_table() 

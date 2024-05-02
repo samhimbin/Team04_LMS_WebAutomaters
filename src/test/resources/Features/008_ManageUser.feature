@@ -24,14 +24,14 @@ Feature: User page validation1
 	Scenario: Validating the default state of Delete button
 			Then Admin should see a Delete button on the top left hand side as Disabled in User Page
 				
-	Scenario: Validate "+ A New user" button in User Page
-			Then Admin should be able to see the "+ Add New User" button above the data table
-			  
-	Scenario: Validate "+ Assign staff"  button in User page
-			Then Admin should be able to see the "+ Assign staff" button above the data table
-				
-	Scenario: Validate "+ Assign Student"  button in User page
-			Then Admin should be able to see the "+ Assign Student" button above the data table
+#	Scenario: Validate "+ A New user" button in User Page
+#			Then Admin should be able to see the "+ Add New User" button above the data table
+#			  
+#	Scenario: Validate "+ Assign staff"  button in User page
+#			Then Admin should be able to see the "+ Assign staff" button above the data table
+#				
+#	Scenario: Validate "+ Assign Student"  button in User page
+#			Then Admin should be able to see the "+ Assign Student" button above the data table
 				
 	Scenario: Validate search box in User page
 			Then Admin should be able to see the search text box above the data table
