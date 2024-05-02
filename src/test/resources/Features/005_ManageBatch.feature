@@ -32,9 +32,45 @@ Feature: Batch Page Validation
     #9    
     Scenario: Validate data rows
      Then Each row in the data table should have a delete icon that is enabled
-    #10
-    Scenario: Validate pop up for adding batch
-     When Admin clicks + A New Batch button
-     Then A new pop up with Batch details appears
+    
+    #11
+    #Scenario: Check if the fields exist in pop
+     #Given Admin clicks + A New Batch button
+     #When A new pop up with Batch details appears
+     #Then The pop up should include Name,Numberofclasses,Description,ProgramName,staus,Numberofclasses
+     
+     ####12
+    Scenario: Validate data rows
+    Then Each row in the data table should have a checkboxBatch
+      ###13
+    Scenario: Validate data rows
+    Then Each row in the data table should have a edit icon that is enabledBatch
+    
+     ###14
+    Scenario: Validate data rows
+    Then Each row in the data table should have a delete icon that is enabledBatch
+    
+     ##15
+     #Scenario: Validate row level delete icon
+    #Given The delete icon on row level in data table is enabled	
+    #When Admin clicks the delete icon	
+    #Then Alert appears with yes and No option
+    
+    ###16
+    #Scenario: Validate accept alert
+    # When Admin clicks the delete icon
+    #When You click yes option
+    #Then Batch deleted alert pops and batch is no more available in data table
+    
+    ###17
+    #Scenario: Validate reject alert
+    #When you click No option	
+    #Then Batch is still listed in data table
+    
+    ##18
+    Scenario: Validate the delete icon below the header 
+    Given None of the checkboxes in data table are selected		
+    Then The delete icon under the Manage Batch header should be disabled
+     
   
   	

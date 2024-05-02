@@ -2,7 +2,6 @@
 Feature: Program Validation
 	Background: Admin successfully logged in to LMS Portal
 		Given Admin is on dashboard page after Login
-		When  Admin clicks "Program" on the navigation bar
 		
  @1_LandingPage
  Scenario: Validate landing in Program page
@@ -78,7 +77,7 @@ Feature: Program Validation
  Scenario: Empty form submission 
  Given Admin is on "Program Details" Popup window
  When Admin clicks <Save>button without entering any data
- Then Admin gets a Error message alert 
+ Then Admin gets a Error message alertProgram
  
  @17_EnteronlyProgramName
  Scenario Outline: Enter only Program Name
@@ -143,7 +142,7 @@ Feature: Program Validation
  @23_ValidateCancelbuttononProgramDetailsform
  Scenario: Validate Cancel button on Program Details form
  Given Admin is on "Program Details" Popup window
- When Admin clicks <Cancel>button 
+ When Admin clicks <Cancel>buttonProgram 
  Then Admin can see the Program details popup disappears without creating any program
 
  ##24_Edit Program
@@ -206,7 +205,4 @@ Feature: Program Validation
  Given Admin clicks <Edit> button on the data table for any row
  When Admin clicks <Save>button on edit popup
  Then Admin gets a message "Successful Program Updated" alert and able to see the updated details in the table for the particular program
-
-
-	 
 

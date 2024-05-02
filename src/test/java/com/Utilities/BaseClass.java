@@ -5,8 +5,10 @@ import java.util.ArrayList;
 
 import com.pageObjects.BatchPageObject;
 import com.pageObjects.DashboardPageObject;
+import com.pageObjects.LogOutPageObjects;
 import com.pageObjects.LoginPageObject;
 import com.pageObjects.ProgramPageObject;
+import com.pageObjects.UserPageObject;
 
 
 public class BaseClass {
@@ -17,11 +19,15 @@ public class BaseClass {
 	public DashboardPageObject dashboard;
 	public BatchPageObject batchpage;
 	protected PageUtils pageUtils;
+	public LogOutPageObjects logOutPage;
+	public UserPageObject userpage;
 	
 	//Manage Program 
 	public static String ExpectedprogramUrl ="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/";
 	//Manage Batch
 	public static String expectedBatchUrl ="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/Managebatch";
+	//Logout 
+	public static String logOutExpectedUrl="https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/login";
 		
 	// Extract the data from Excel and return the value as ArrayList
 	public static ArrayList<String> excelValue(String sheetName, String testCase) throws IOException {
