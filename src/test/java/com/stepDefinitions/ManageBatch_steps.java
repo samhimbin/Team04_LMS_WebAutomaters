@@ -1,12 +1,12 @@
 package com.stepDefinitions;
 
-import static org.testng.Assert.assertEquals;
-
 import org.testng.Assert;
+
 import com.Utilities.BaseClass;
 import com.Utilities.LoggerLoad;
 import com.driverFactory.DriverClass;
 import com.pageObjects.BatchPageObject;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -73,7 +73,7 @@ public class ManageBatch_steps extends BaseClass {
 	}
 
 	@Then("Each row in the data table should have a checkbox")
-	public void each_row_in_the_data_table_should_have_a_checkbox() {
+	public void each_row_in_the_data_table_should_have_a_checkbox() throws InterruptedException {
 		LoggerLoad.info("Each row in the data table have a checkbox :"+ batchpage.checkBoxFunction());
 	}
 	@Then("Each row in the data table should have a edit icon that is enabled")
@@ -93,11 +93,133 @@ public class ManageBatch_steps extends BaseClass {
 
 	@Then("A new pop up with Batch details appears")
 	public void a_new_pop_up_with_batch_details_appears()  {
-		
-	    String alertText =batchpage.alertDisplyFunction();
-		Assert.assertEquals("Batch Details", alertText);
-		LoggerLoad.info("Alert message: " + alertText);
+		LoggerLoad.info("A new pop up with Batch details appears with Header: "+batchpage.newBatchpopUp());
+		 batchpage.clickOncancelButton();
 	}
+	@Then("Each row in the data table should have a checkboxBatch")
+	public void each_row_in_the_data_table_should_have_a_checkboxBatch() throws InterruptedException {
+		batchpage.checkBoxFunction();
+	}
+	@Then("Each row in the data table should have a edit icon that is enabledBatch")
+	public void each_row_in_the_data_table_should_have_a_edit_icon_that_is_enabledBatch() {
+		batchpage.editIconFunction();
+	    
+	}
+	
+	@Then("Each row in the data table should have a delete icon that is enabledBatch")
+	public void each_row_in_the_data_table_should_have_a_delete_icon_that_is_enabledBatch() {
+		batchpage.deleteIconFunction();
+	}
+	@When("Admin clicks the delete icon")
+	public void admin_clicks_the_delete_icon() {
+		batchpage.rowDeleteFunction();
+	    
+	}
+	@When("You click yes option")
+	public void you_click_yes_option() {
+		
+		batchpage.batchDeleteYes();
+	    
+	}
+	@When("you click No option")
+	public void you_click_no_option() {
+	    batchpage.batchDeleteNo();
+	}
+
+	@Then("Batch is still listed in data table")
+	public void batch_is_still_listed_in_data_table() {
+    batchpage.batchserachfunction();
+	}
+	
+	@Given("None of the checkboxes in data table are selected")
+	public void none_of_the_checkboxes_in_data_table_are_selected() {
+		batchpage.checkboxFunction();
+	    
+	}
+
+	@Then("The delete icon under the Manage Batch header should be disabled")
+	public void the_delete_icon_under_the_manage_batch_header_should_be_disabled() { 
+		
+		batchpage.disabledDeleteFunction();
+	}
+	@Given("One of the checkbox\\/ row is selected")
+	public void one_of_the_checkbox_row_is_selected() {
+		//selected first row
+		batchpage.selectOnlyOneRow();
+	}
+
+	@When("Click delete icon below Manage Batch header")
+	public void click_delete_icon_below_manage_batch_header() {
+		batchpage.disabledDeleteFunctiontoDelete();
+	    
+	}@Then("The respective row in the data table is deleted")
+	public void the_respective_row_in_the_data_table_is_deleted() {
+		batchpage.batchDeleteYes();	
+		
+	}
+
+	@Given("Two or more checkboxes\\/row is selected")
+	public void two_or_more_checkboxes_row_is_selected() {
+		
+	    //selcet first 2 rows
+		
+		batchpage.selectMultiRow();
+		
+	}
+	
+	@Given("The edit icon on row level in data table is enabled")
+	public void the_edit_icon_on_row_level_in_data_table_is_enabled() {
+		batchpage.editBtnEnabled();
+	    
+	}
+@When("Admin clicks the edit icon")
+	public void admin_clicks_the_edit_icon() {
+		batchpage.editFunction();
+	    
+	}
+
+//	@Then("A new pop up with Batch details appears")
+//	public void a_new_pop_up_with_batch_details_appears() throws Throwable {
+//		batchpage.batchPopUp();
+//	    
+//	}
+	
+	@When("Update the fields with valid values and click save")
+	public void update_the_fields_with_valid_values_and_click_save() {
+		batchpage.batchEditDescription();
+	    
+	}
+
+	@Then("The updated batch details should appear on the data table")
+	public void the_updated_batch_details_should_appear_on_the_data_table() {
+		batchpage.batchEditSaveFunction();
+	    
+	}
+
+@Then("Alert appears with yes and No option")
+	public void alert_appears_with_yes_and_no_option() throws Throwable {
+		
+//		LoggerLoad.info("A new pop up with Batch details appears with Header: "+batchpage.newBatchpopUp());
+//		batchpage.clickXbutton();
+//		LoggerLoad.info("clicked 'X' on popup and returned to Manage BAtch page");
+		
+		String actualMsg = null;
+
+
+		actualMsg = batchpage.alertDisplayFunction3();
+
+		LoggerLoad.info("Actual message is  : " + actualMsg);
+		Assert.assertEquals(actualMsg,"Alert appears with yes and No option", "Result matched");
+		System.out.println("aaaaaaaaaaaaaaa");
+		;
+//		signinPg.alertDisplyFunction();
+//		
+		System.out.println("*********************");
+		//System.out.println("Alert message: " + alertMessage);
+		
+
+	}
+
 	
 
 

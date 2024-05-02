@@ -45,6 +45,7 @@ public class ManageProgram_steps extends BaseClass {
 		String expectedURL = BaseClass.ExpectedprogramUrl;
 		try {
 			Assert.assertEquals(currentUrl, expectedURL);
+			//Assert.assertTrue(currentUrl.equals(expectedURL) || currentUrl.contains(expectedURL));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
