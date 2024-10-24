@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: kiran
 Build-Jdk: 17.0.6
+=======
+Build-Jdk-Spec: 22
+>>>>>>> 52d5bedc8dae5617922aa23b1a95f20e4e5ec344
 Created-By: Maven Integration for Eclipse
 
