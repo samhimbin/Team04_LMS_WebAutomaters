@@ -32,6 +32,7 @@
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.11.2</version>
+			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -101,6 +102,7 @@
 	    <groupId>io.qameta.allure</groupId>
 	    <artifactId>allure-cucumber7-jvm</artifactId>
 	    <version>2.25.0</version>
+	    <scope>test</scope>
 	</dependency>
 
 		<!--
